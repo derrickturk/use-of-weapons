@@ -30,7 +30,7 @@ Well, that's kind of a loaded question, isn't it?
 From time to time, somebody will repost this article, somewhere on the internet:
 [sheep and goats paper].
 
-Well, that's crap. At best, it's a test for "who has previously been exposed to a language that inherited the brain-dead choice of '=' as an assignment operator from B".
+Well, that's crap. At best, it's a test for "who has previously been exposed to a language that inherited the brain-dead choice of '=' as an assignment operator from FORTRAN".
 
 Ok, pop quiz: what does the following program do?
 [screenshot]
