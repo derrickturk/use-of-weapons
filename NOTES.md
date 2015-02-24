@@ -1,4 +1,6 @@
-# Intro
+# use of weapons
+## programming for engineers and other malcontents
+
 "Coding is the new literacy."
 But it's an odd kind of literacy, isn't it, if we're taught to write before we learn to read?
 
@@ -7,24 +9,47 @@ This course will use selected "readings" to provide context for topics and examp
 # Why learn to program?
 Well, that's kind of a loaded question, isn't it?
 * Why learn history?
-** To provide context for understanding the world.
+  * To provide context for understanding the world.
 * Why learn math?
-** To provide a language for modeling to world.
+  * To provide a language for modeling to world.
 * Why learn engineering?
-** So that we can understand how to build tools that shape the world.
+  * So that we can understand how to build tools that shape the world.
 * Why learn art?
-** So that we can express ideas through creative means.
+  * So that we can express ideas through creative means.
 * Why learn Latin?
-** For mental stimulation, and to open up new literature.
+  * For mental stimulation, and to open up new literature.
 * ...
 * So, why learn to program?
-** For all of the above!
-*** Software is a context that's shaped the end of the 20th century and will pervade the 21st.
-*** Programming is "executable math"---a tool for modeling the world and for realizing those models.
-*** Programming is an engineering discipline, a way to create tools that anybody in the world can use.
-*** Programming is a creative medium---it permits voice, style, play, and message.
-*** It's fun, and it's good for your brain*!
-* citation needed
+  * For all of the above!
+    * Software is a context that's shaped the end of the 20th century and will pervade the 21st.
+    * Programming is "executable math"---a tool for modeling the world and for realizing those models.
+    * Programming is an engineering discipline, a way to create tools that anybody in the world can use.
+    * Programming is a creative medium---it permits voice, style, play, and message.
+    * It's fun, and it's good for your brain*!
+
+\* citation needed
+
+# What this isn't
+Engineers are prone to latch on to totalizing worldviews
+* Young earth creationism
+* Radical Islam
+
+... especially with charismatic figureheads
+* Zed Shaw
+* Eliezer Yudkowsky
+* The Mustache Money guy
+
+Bad news:
+* I'm super opinionated
+
+Worse news:  
+* You will be too
+
+Good news:
+* We don't need to agree. Question everything.
+
+This isn't going to be dogmatic.
+I'm not going to hold back from sharing opinions, but I need you to ask for evidence when I don't present it. Call me out. It's OK!
 
 # You're all already programmers
 From time to time, somebody will repost this article, somewhere on the internet:
@@ -32,11 +57,20 @@ From time to time, somebody will repost this article, somewhere on the internet:
 
 Well, that's crap. At best, it's a test for "who has previously been exposed to a language that inherited the brain-dead choice of '=' as an assignment operator from FORTRAN".
 
+Or worse, some smartass will start a programming class by asking you what you think some program like this does:
+```
+some idiot APCS "what does this do" here
+```
+This is the moral equivalent of starting a 6th English class by telling the students to read Finnegans Wake and asking them what it means.
+
+
 Ok, pop quiz: what does the following program do?
+```
 [screenshot]
 A1 [1]
 A2 [=A1 + 1]
 A3 [=A2 + 1]
 ...
+```
 
 See, you all can program already! Next time you want to impress someone, tell them you use a dynamically-typed, pure, reactive functional programming language every day at work.
