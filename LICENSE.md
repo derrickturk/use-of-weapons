@@ -1,0 +1,1 @@
+This course material is licensed under the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/). It is free for non-commercial use with attribution and you are free to create derivative works under the same license.
