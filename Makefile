@@ -1,4 +1,4 @@
-CHAPTERS := $(patsubst %.smd,%.md,$(wildcard ch*.smd))
+CHAPTERS := $(patsubst %.smd,%.md,$(wildcard chapters/ch*/ch*.smd))
 
 all: chapters
 
