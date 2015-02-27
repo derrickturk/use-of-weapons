@@ -1,5 +1,6 @@
 # use of weapons
-## programming for engineers and other malcontents
+## programming for engineers
+## and other malcontents
 
 %%%
 
@@ -86,26 +87,39 @@ Call me out. It's OK!
 
 
 From time to time, somebody will repost this article, somewhere on the internet:
-[sheep and goats paper].
 
+<img src="chapters/ch0/images/camel_two_humps.png" height="400px">
+
+
+<img src="chapters/ch0/images/sample_question.png">
 
 Well, that's crap. At best, it's a test for ``who has previously been exposed to a language that inherited the brain-dead choice of '=' as an assignment operator from FORTRAN''.
 
 
+<img src="chapters/ch0/images/retraction.png">
+
+
 Or worse, some smartass will start a programming class by asking you what you think some program like this does:
+
+```java
+public void mystery(int x)
+{
+    System.out.print(x % 10);
+    if ((x / 10) != 0)
+        mystery(x / 10);
+    System.out.print(x % 10);
+}
 ```
-some idiot APCS "what does this do" here
-```
-This is the moral equivalent of starting a 6th English class by telling the students to read Finnegans Wake and asking them what it means.
+This is the moral equivalent of starting a 6th grade English class by having the students read a chapter of Finnegans Wake and asking them what it means.
 
 
 Ok, pop quiz: what does the following program do?
-```
-[screenshot]
-A1 [1]
-A2 [=A1 + 1]
-A3 [=A2 + 1]
-...
-```
 
-See, you all can program already! Next time you want to impress someone, tell them you use a dynamically-typed, pure, reactive functional programming language every day at work.
+<img src="chapters/ch0/images/excel_program.png">
+
+
+See, you all can program already!
+
+Next time you want to impress someone, tell them you use a dynamically-typed, pure, reactive functional programming language every day at work.
+
+In fact, tell them you use co-recursive streams for total functional programming on non-finite structures. (We just did, for realsies!)
